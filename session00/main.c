@@ -14,5 +14,10 @@ int     main(void)
     i = 0;
     printf("\n");
 
-    //EX01
+    //EX01 ft_print_alphabet
+    printf("\nEX01 ft_print_alphabet:\n");
+    ft_print_alphabet();
+    printf("\n");
+
+
 }
