@@ -39,13 +39,27 @@ int     main(void)
     write(1, " | ", 3);
     n = -10;
     ft_is_negative(n);
-    printf("\n");*/
+    printf("\n");
 
     //EX05 ft_print_comb
     printf("\n");
     ft_print_comb();
     printf("\n");
 
-    
+    //EX06 ft_print_comb2
+    printf("\n");
+    ft_print_comb2();
+    printf("\n");
 
+    //EX07 ft_putnbr
+    printf("\n");
+    int m = -2147483648;
+    ft_putnbr(m);
+    printf("\n");*/
+
+    //EX08 ft_print_combn
+    printf("\n");
+    int v = 2;
+    ft_print_combn(v);
+    printf("\n");
 }
