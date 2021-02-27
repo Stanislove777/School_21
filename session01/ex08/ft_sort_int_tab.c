@@ -4,7 +4,6 @@ void	ft_sort_int_tab(int *tab, int size)
 {
 	int i;
 	int j;
-	int f;
 
 	i = 0;
 	while (i < size-1)
