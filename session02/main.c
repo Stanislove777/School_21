@@ -47,12 +47,25 @@ int		main(void)
 	//EX08 ft_strlowcase
 	char str4[] = "aB43C";
 	ft_strlowcase(str4);
-	printf("%s\n", str4);*/
+	printf("%s\n", str4);
 
 	//EX09 ft_strcapitalize
 	char str5[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
 	char str6[] = "42mots, 42_mots, 42 mots";
 	ft_strcapitalize(str5);
 	printf("%s\n", str5);
+
+	//EX10 ft_strlcpy
+	char str7[] = "abc_123";
+	char buf[5] = "";
+	char str8[] = "cba_321";
+	char buf2[5] = "";
+
+	int sz = strlcpy(buf, str7, sizeof(buf));
+	printf("%s - sz = %d, sizeof = %lu\n", buf, sz, sizeof(buf));
+	int sz2 = ft_strlcpy(buf2, str8, sizeof(buf2));
+	printf("%s - sz2 = %d, sizeof = %lu\n", buf2, sz2, sizeof(buf2));*/
+
+	//EX11 ft_putstr_non_printable
 
 }
