@@ -51,6 +51,7 @@ int		main(void)
 
 	//EX09 ft_strcapitalize
 	char str5[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
+	char str6[] = "42mots, 42_mots, 42 mots";
 	ft_strcapitalize(str5);
 	printf("%s\n", str5);
 
