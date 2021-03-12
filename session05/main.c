@@ -17,10 +17,19 @@ int		main(void)
 
 	// EX03 ft_recursive_power
 	int d = ft_recursive_power(2, 5);
-	printf("%d\n", d);*/
+	printf("%d\n", d);
 
 	// EX04 ft_fibonacci
 	int e = ft_fibonacci(3);
 	printf("%d %d %d %d %d\n", ft_fibonacci(1), ft_fibonacci(2), ft_fibonacci(3), 
 		ft_fibonacci(4), ft_fibonacci(5));
+
+	// EX05 ft_sqrt
+	printf("%d %d", ft_sqrt(26), ft_sqrt(121));
+
+	// EX06 ft_is_prime
+	printf("%d %d %d\n", ft_is_prime(82), ft_is_prime(83), ft_is_prime(84));*/
+
+	// EX07 ft_find_next_prime
+	printf("%d %d %d\n", ft_find_next_prime(4), ft_find_next_prime(5), ft_find_next_prime(95));
 }
