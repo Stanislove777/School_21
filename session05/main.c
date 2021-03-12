@@ -28,8 +28,11 @@ int		main(void)
 	printf("%d %d", ft_sqrt(26), ft_sqrt(121));
 
 	// EX06 ft_is_prime
-	printf("%d %d %d\n", ft_is_prime(82), ft_is_prime(83), ft_is_prime(84));*/
+	printf("%d %d %d\n", ft_is_prime(82), ft_is_prime(83), ft_is_prime(84));
 
 	// EX07 ft_find_next_prime
-	printf("%d %d %d\n", ft_find_next_prime(4), ft_find_next_prime(5), ft_find_next_prime(95));
+	printf("%d %d %d\n", ft_find_next_prime(4), ft_find_next_prime(5), ft_find_next_prime(95));*/
+
+	// EX08 ft_ten_queens_puzzle
+	
 }
