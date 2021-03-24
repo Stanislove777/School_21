@@ -27,3 +27,4 @@ gcc main.c ex00/ft_putchar.c ex01/ft_print_alphabet.c
 - session04 нет решений ex04, ex05
 - session05 нет решения ex07
 - session06 нет решения ex03
+- session07 нет решения ex04, ex05
